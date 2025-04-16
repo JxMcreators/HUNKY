@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HUNKY - Connect the World</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f9fc;
+    }
+
+    header {
+      background-color: #111827;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #e5e7eb;
+    }
+
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      color: #374151;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111827;
+      color: white;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HUNKY</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Login</a>
+      <a href="#">Sign Up</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Welcome to HUNKY</h1>
+    <p>A next-gen social platform for messaging, reels, live streaming and more.</p>
+  </div>
+
+  <footer>
+    &copy; 2025 HUNKY. All rights reserved.
+  </footer>
+</body>
+</html>
